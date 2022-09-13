@@ -12,7 +12,7 @@ def get_data(id):
 
     url = "https://api.bgm.tv/v0/subjects/"+id
     headers = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33',
+        'user-agent': 'Trrrrw/hexo-bilibili-bangumi-addon(https://github.com/Trrrrw/hexo-bilibili-bangumi-addon)',
         'accept': 'application / json'
     }
     re = httpx.get(url=url, headers=headers)
