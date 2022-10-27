@@ -35,7 +35,7 @@ def local_file(id, bangumis):
                         bangumis.collect = "-"
 
                     try:
-                        bangumis.totalCount = i['totalCount']
+                        bangumis.totalCount = i['totalCount'][1:-1]
                     except:
                         bangumis.totalCount = "全12话"
                     return bangumis
@@ -65,7 +65,7 @@ def local_file(id, bangumis):
                         bangumis.collect = "-"
 
                     try:
-                        bangumis.totalCount = i['totalCount']
+                        bangumis.totalCount = i['totalCount'][1:-1]
                     except:
                         bangumis.totalCount = "全12话"
                     return bangumis
@@ -95,7 +95,7 @@ def local_file(id, bangumis):
                         bangumis.collect = "-"
 
                     try:
-                        bangumis.totalCount = i['totalCount']
+                        bangumis.totalCount = i['totalCount'][1:-1]
                     except:
                         bangumis.totalCount = "全12话"
                     return bangumis
